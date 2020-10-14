@@ -8,35 +8,43 @@
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
 }
-.navlinks a a {
+
+a {
   color: white;
   text-decoration: none;
 }
-.navlinks a .link-blog {
+
+.navlink_link-blog {
   background-color: #e17b77;
   top: 100px;
 }
-.navlinks a .link-twitter {
+
+.navlink_link-twitter {
   background-color: #00aced;
   top: 160px;
 }
-.navlinks a .link-linkedin {
+
+.navlink_link-linkedin {
   background-color: #007bb6;
   top: 220px;
 }
-.navlinks a .link-facebook {
+
+.navlink_link-facebook {
   background-color: #3b5998;
   top: 280px;
 }
-.navlinks a .link-github {
+
+.navlink_link-github {
   background-color: #333;
   top: 340px;
 }
-.navlinks a a:hover {
+
+a:hover {
   right: 0;
   text-decoration: underline;
 }
-.navlinks a .fa {
+
+.fa {
   padding-right: 20px;
   border-left: 0px;
 }
