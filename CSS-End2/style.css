@@ -1,11 +1,11 @@
 body {
   background: #c3cfe2;
 }
-body .container {
+body .body__container {
   position: relative;
   width: 70%;
 }
-body .image {
+body .body__container--image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -17,7 +17,7 @@ body .image {
   padding: 20px;
   border-radius: 30px;
 }
-body .middle {
+body .body__container--middle {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0;
@@ -29,18 +29,24 @@ body .middle {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-body .text {
+body .container__middle--text {
   background-color: blue;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-.container:hover .image {
+.body__container:hover .body__container--image {
   opacity: 0.05;
 }
 
-.container:hover .middle {
+.body__container:hover .body__container--middle {
   opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .body__container--image {
+    width: 40%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

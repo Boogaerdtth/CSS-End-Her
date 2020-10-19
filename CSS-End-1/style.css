@@ -1,13 +1,13 @@
 body {
   background: #c3cfe2;
 }
-body .border {
+body .body__border {
   border: 50px;
   padding: 50px;
   margin: 50px;
   text-align: center;
 }
-body .text {
+body .body__border--text {
   background: #fff;
   padding: 30px;
   margin-bottom: 0px;
@@ -16,19 +16,19 @@ body .text {
   color: #504d4d;
   padding-bottom: 80px;
 }
-body .footer {
+body .body__border--footer {
   background: #686de0;
   border-radius: 0px 0px 25px 25px;
 }
-body .profilepic {
+body .border__footer--profilepic {
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
 }
-body .name {
+body .border__footer--name {
   color: #fff;
   font-size: 25px;
 }
-body .website {
+body .border__footer--website {
   padding: 10px;
   padding-bottom: 30px;
   color: #98aae6;

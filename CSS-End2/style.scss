@@ -1,11 +1,12 @@
 body {
     background: #c3cfe2;
 
-    .container {
+    .body__container {
         position: relative;
         width: 70%;
+       
     }
-    .image {
+    .body__container--image {
         opacity: 1;
         display: block;
         width: 100%;
@@ -15,7 +16,7 @@ body {
         padding: 20px;
         border-radius: 30px;
     }
-    .middle {
+    .body__container--middle {
         transition: .5s ease;
         opacity: 0;
         position: absolute;
@@ -25,7 +26,7 @@ body {
         -ms-transform: translate(-50%, -50%);
         text-align: center;
     }
-    .text {
+    .container__middle--text {
         background-color: blue;
         color: white;
         font-size: 16px;
@@ -34,11 +35,24 @@ body {
     
 }
 
-.container:hover .image {
+.body__container:hover .body__container--image {
     opacity: 0.05;
 }
 
-.container:hover .middle {
+.body__container:hover .body__container--middle {
     opacity: 1;
 }
 
+
+@media (min-width:768px){
+    .body__container--image{
+        // display:inline;
+        width:40%;
+    }
+}
+
+// @media (min-width: 1024px){
+//     .body__container--image{
+//         width:25%;
+//     }  
+// } 

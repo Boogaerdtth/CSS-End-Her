@@ -1,12 +1,16 @@
+@mixin colorWhite {
+    color: #fff;
+}
+
 body{
     background:#c3cfe2;
-    .border{
+    .body__border{
         border:50px;
         padding:50px;
         margin:50px;
         text-align: center;
     }
-    .text{
+    .body__border--text{
         background:#fff;
         padding:30px;
         margin-bottom: 0px;
@@ -15,19 +19,19 @@ body{
         color:rgb(80, 77, 77);
         padding-bottom: 80px;   
     }
-    .footer{
+    .body__border--footer{
         background:#686de0;
         border-radius: 0px 0px 25px 25px; 
     }
-    .profilepic{
+    .border__footer--profilepic{
         transform: translateY(-50px);
     }
-    .name{
-        color:#fff;
+    .border__footer--name{
+        @include colorWhite;
         font-size: 25px;
         
     }
-    .website{
+    .border__footer--website{
         padding:10px;
         padding-bottom: 30px;
         color:rgb(152, 170, 230);
