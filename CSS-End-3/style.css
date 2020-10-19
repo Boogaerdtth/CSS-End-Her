@@ -13,35 +13,30 @@ a {
   color: white;
   text-decoration: none;
 }
-
-.navlink_link-blog {
-  background-color: #e17b77;
-  top: 100px;
-}
-
-.navlink_link-twitter {
-  background-color: #00aced;
-  top: 160px;
-}
-
-.navlink_link-linkedin {
-  background-color: #007bb6;
-  top: 220px;
-}
-
-.navlink_link-facebook {
-  background-color: #3b5998;
-  top: 280px;
-}
-
-.navlink_link-github {
-  background-color: #333;
-  top: 340px;
-}
-
 a:hover {
   right: 0;
   text-decoration: underline;
+}
+
+.navlinks__link-blog {
+  background-color: #e17b77;
+  top: 100px;
+}
+.navlinks__link-twitter {
+  background-color: #00aced;
+  top: 160px;
+}
+.navlinks__link-linkedin {
+  background-color: #007bb6;
+  top: 220px;
+}
+.navlinks__link-facebook {
+  background-color: #3b5998;
+  top: 280px;
+}
+.navlinks__link-github {
+  background-color: #333;
+  top: 340px;
 }
 
 .fa {

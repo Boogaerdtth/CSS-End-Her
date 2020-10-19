@@ -11,31 +11,35 @@
 a{
     color: white;
     text-decoration: none;
+    &:hover{
+        right: 0; 
+        text-decoration: underline;
+    }
 }
-.navlink_link-blog {
+
+.navlinks{
+    &__link-blog {
     background-color: #e17b77; 
     top: 100px;  
 }
-.navlink_link-twitter {
+    &__link-twitter {
     background-color: #00aced;
     top: 160px;
 }
-.navlink_link-linkedin{
+    &__link-linkedin{
     background-color: #007bb6;
     top: 220px;
 }
-.navlink_link-facebook {
+    &__link-facebook {
     background-color: #3b5998;
     top: 280px;
 }
-.navlink_link-github{
+    &__link-github{
     background-color: #333;
     top: 340px;
 }
-a:hover{
-    right: 0; 
-    text-decoration: underline;
 }
+
 .fa{
     padding-right:20px;
     border-left:0px;
