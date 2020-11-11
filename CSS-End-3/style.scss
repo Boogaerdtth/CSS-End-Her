@@ -1,3 +1,9 @@
+$blogColor: #e17b77;
+$twitterColor: #00aced;
+$linkedinColor:#007bb6;
+$facebookColor:#3b5998;
+$githubColor:#333;
+
 .navlinks a{
     position: absolute; 
     right: -190px; 
@@ -18,24 +24,24 @@ a{
 }
 
 .navlinks{
-    &__link-blog {
-    background-color: #e17b77; 
+    &__blog {
+    background-color: $blogColor; 
     top: 100px;  
 }
-    &__link-twitter {
-    background-color: #00aced;
+    &__twitter {
+    background-color: $twitterColor;
     top: 160px;
 }
-    &__link-linkedin{
-    background-color: #007bb6;
+    &__linkedin{
+    background-color:$linkedinColor;
     top: 220px;
 }
-    &__link-facebook {
-    background-color: #3b5998;
+    &__facebook {
+    background-color: $facebookColor;
     top: 280px;
 }
-    &__link-github{
-    background-color: #333;
+    &__github{
+    background-color: $githubColor;
     top: 340px;
 }
 }

@@ -21,16 +21,16 @@ body {
   background: #686de0;
   border-radius: 0px 0px 25px 25px;
 }
-.border__footer--profilepic {
+.border .testimonial-footer__profilepic {
   -webkit-transform: translateY(-50px);
           transform: translateY(-50px);
 }
-.border__footer--website {
+.border .testimonial-footer__website {
   padding: 10px;
   padding-bottom: 30px;
   color: #98aae6;
 }
-.border__footer--name {
+.border .testimonial-footer__name {
   color: #fff;
   font-size: 25px;
 }

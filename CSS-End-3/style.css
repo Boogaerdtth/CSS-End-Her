@@ -18,23 +18,23 @@ a:hover {
   text-decoration: underline;
 }
 
-.navlinks__link-blog {
+.navlinks__blog {
   background-color: #e17b77;
   top: 100px;
 }
-.navlinks__link-twitter {
+.navlinks__twitter {
   background-color: #00aced;
   top: 160px;
 }
-.navlinks__link-linkedin {
+.navlinks__linkedin {
   background-color: #007bb6;
   top: 220px;
 }
-.navlinks__link-facebook {
+.navlinks__facebook {
   background-color: #3b5998;
   top: 280px;
 }
-.navlinks__link-github {
+.navlinks__github {
   background-color: #333;
   top: 340px;
 }
