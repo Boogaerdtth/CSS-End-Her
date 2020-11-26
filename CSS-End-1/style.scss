@@ -42,3 +42,15 @@ body{
     }
     }
 }
+
+@media (min-width:768px){
+    .border{
+        width: 40%;   
+    }
+}
+
+@media (min-width: 1024px){
+    .border{
+        width: 30%;   
+    }  
+} 

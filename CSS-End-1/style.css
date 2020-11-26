@@ -34,4 +34,15 @@ body {
   color: #fff;
   font-size: 25px;
 }
+
+@media (min-width: 768px) {
+  .border {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .border {
+    width: 30%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
