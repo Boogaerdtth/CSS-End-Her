@@ -20,9 +20,6 @@ a{
     overflow: hidden;
     &:hover {
         transition: 500ms ease-in-out;
-        animation-name: hovers;
-        animation-fill-mode: forwards;
-        animation-duration: 0.8s;
         text-decoration: underline;
         transform: translate(-180px, 0);
     }

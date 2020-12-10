@@ -17,12 +17,6 @@ a {
 a:hover {
   -webkit-transition: 500ms ease-in-out;
   transition: 500ms ease-in-out;
-  -webkit-animation-name: hovers;
-          animation-name: hovers;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
   text-decoration: underline;
   -webkit-transform: translate(-180px, 0);
           transform: translate(-180px, 0);
