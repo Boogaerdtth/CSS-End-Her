@@ -5,21 +5,26 @@ $facebookColor:#3b5998;
 $githubColor:#333;
 
 .navlinks a{
-    position: absolute; 
-    right: -190px; 
+    position: fixed;
+    right: -190px;
     padding:20px; 
     width: 190px; 
     font-size: 16px; 
-    transition: 0.3s;
+    transition: 1.5s;
     border-radius: 0 5px 5px 0;
 }
 
 a{
     color: white;
     text-decoration: none;
-    &:hover{
-        right: 0; 
+    overflow: hidden;
+    &:hover {
+        transition: 500ms ease-in-out;
+        animation-name: hovers;
+        animation-fill-mode: forwards;
+        animation-duration: 0.8s;
         text-decoration: underline;
+        transform: translate(-180px, 0);
     }
 }
 
@@ -50,5 +55,3 @@ a{
     padding-right:20px;
     border-left:0px;
 }
-
-
